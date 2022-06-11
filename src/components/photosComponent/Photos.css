@@ -1,0 +1,10 @@
+.photos-card{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photos-card .card-img-top{
+    max-height: 190px;
+}
