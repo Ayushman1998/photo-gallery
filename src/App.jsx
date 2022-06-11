@@ -12,7 +12,7 @@ import ContactUs from "./components/contactUs/ContactUs";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename="/photo-gallery">
         <NavbarComponent />
         <Routes>
           <Route path="/" element={<PhotosComponentFunction />} />
